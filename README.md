@@ -28,7 +28,7 @@ The rows in the input file will be processed as follows:
 * If an opcode was extracted, it is copied to a given position, default 12, in an output buffer.
 * If the opcode has an operand, then the operand is copied to the buffer at position 20.
 * Any comments are copied to position 40 in the output buffer.
-* If there is anything to print, the output buffer is written to the output file, followed byba single linefeed.
+* If there is anything to print, the output buffer is written to the output file, followed by a single linefeed.
 
 ## Continuations
 
