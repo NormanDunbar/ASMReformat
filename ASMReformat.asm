@@ -310,7 +310,7 @@ doThreeFive
            cmpi.w  #'no',d1            ; NO for NOP
            beq.s   doNO                ; Yes, skip
            cmpi.w  #'rt',d1            ; RT for RTE, RTR, RTS
-           beq.s   doTRRE              ; Yes, skip
+           beq.s   doRT                ; Yes, skip
            cmpi.w  #'re',d1            ; RE for RESET
            beq.s   doTRRE              ; Yes, skip
            cmpi.w  #'tr',d1            ; TR for TRAPV
